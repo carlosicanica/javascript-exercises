@@ -1,6 +1,7 @@
 const convertToCelsius = function(fahr) {
   let newCels = (fahr - 32) / 1.8000
-  return newCels;
+  let celsiusRounded = Math.round(newCels * 10) / 10;
+  return celsiusRounded;
 };
 
 const convertToFahrenheit = function(cels) {
