@@ -1,4 +1,14 @@
-const sumAll = function() {
+
+
+const sumAll = function(from, to) {
+    let sum = 0;
+    let max = Math.max(from, to);
+    let min = Math.min(from, to);
+    for (let i = min; min <= max; i++) {
+        sum = sum + i;
+    }
+    return sum;
+
 
 };
 
